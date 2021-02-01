@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
+    "async-validator": "^3.5.1",
     "core-js": "^3.6.5",
     "mint-ui": "^2.2.13",
     "vue": "^2.6.11"
