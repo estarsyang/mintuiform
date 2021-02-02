@@ -58,7 +58,7 @@ export default {
 
       rules: {
         name: [
-          { required: true, message: "请输入活动名称", trigger: "blur" },
+          { required: true, message: "请输入姓名", trigger: "blur" },
           {
             min: 3,
             max: 5,
