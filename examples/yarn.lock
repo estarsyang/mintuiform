@@ -5437,6 +5437,13 @@ mint-ui@^2.2.13:
     raf.js "0.0.4"
     vue-lazyload "^1.0.1"
 
+mintuiform@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/mintuiform/-/mintuiform-0.0.1.tgz#5b80f9e27ae9c57d0126a067eb110c6c5868d14f"
+  integrity sha512-7SPoBkyUlQENIrwLQEOFTqG+2hS4KVaVW2MaaYc27xOF9Gie/D4XCL7lMCcHXrNlE+KImt8ELyt/w/V9u/C8VQ==
+  dependencies:
+    async-validator "^3.5.1"
+
 mississippi@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/mississippi/download/mississippi-3.0.0.tgz#ea0a3291f97e0b5e8776b363d5f0a12d94c67022"

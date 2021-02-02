@@ -14,9 +14,9 @@
 
 <script>
 import AsyncValidator from "async-validator";
-import objectAssign from "../../utils/merge";
-import { getPropByPath } from "../../utils/util";
-import emitter from "../../mixins/emitter";
+import objectAssign from "@/utils/merge";
+import { getPropByPath } from "@/utils/util";
+import emitter from "@/mixins/emitter";
 export default {
   name: "mintFormItem",
   componentName: "mintFormItem",
