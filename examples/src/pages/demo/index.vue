@@ -1,14 +1,14 @@
 <template>
   <div>
     <mt-form :model="form" :rules="rules" ref="form">
-      <mt-form-item prop="name">
-        <mt-input v-model="form.name" label="姓名" />
+      <mt-form-item prop="name" label="姓名">
+        <mt-input v-model="form.name" />
       </mt-form-item>
-      <mt-form-item prop="gender">
-        <mt-radio v-model="form.gender" title="性别" :options="gender"></mt-radio>
+      <mt-form-item prop="gender" label="性别">
+        <mt-form-radio v-model="form.gender" :options="gender"></mt-form-radio>
       </mt-form-item>
-      <mt-form-item prop="like">
-        <mt-checklist v-model="form.like" title="爱好" :options="likes"></mt-checklist>
+      <mt-form-item prop="like" label="爱好">
+        <mt-form-checklist v-model="form.like" :options="likes"></mt-form-checklist>
       </mt-form-item>
     </mt-form>
     <mt-button type="primary" @click="submit">提交</mt-button>

@@ -1,5 +1,6 @@
 <template>
   <div class="mint-form-item" :class="[{'is-error': validateState === 'error'}]">
+    <div class="mint-form-item__label" v-if="label">{{label}}</div>
     <div class="mint-form-item-content">
       <slot></slot>
       <transition name="mint-zoom-in-top">
@@ -28,6 +29,7 @@ export default {
       type: Boolean,
       default: undefined,
     },
+    label: String,
   },
 
   data() {
@@ -183,7 +185,6 @@ export default {
       this.validate("blur");
     },
     onFieldChange() {
-      console.log("change emit");
       if (this.validateDisabled) {
         this.validateDisabled = false;
         return;
@@ -224,6 +225,24 @@ export default {
 <style lang="scss" scoped>
   .mint-form-item {
     margin-bottom: 22px;
+    &__label {
+      vertical-align: middle;
+      font-size: 14px;
+      color: #606266;
+      line-height: 40px;
+      box-sizing: border-box;
+      float: none;
+      display: inline-block;
+      text-align: left;
+      & ~ .mint-form-item-content {
+        ::v-deep .mint-radiolist-title {
+          margin: 0;
+        }
+        ::v-deep .mint-checklist-title {
+          margin: 0;
+        }
+      }
+    }
   }
   .mint-form-item-content {
     line-height: 40px;
