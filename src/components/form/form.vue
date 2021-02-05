@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import objectAssign from "@/utils/merge";
+import objectAssign from "../../utils/merge";
 export default {
   name: "mintForm",
   componentName: "mintForm",

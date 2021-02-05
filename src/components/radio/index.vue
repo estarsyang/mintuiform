@@ -6,7 +6,7 @@
 
 
 <script>
-import emitter from "@/mixins/emitter";
+import emitter from "../../mixins/emitter";
 export default {
   name: "mt-form-radio",
   mixins: [emitter],

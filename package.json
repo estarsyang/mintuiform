@@ -1,6 +1,6 @@
 {
   "name": "mintuiform",
-  "version": "0.0.3",
+  "version": "0.0.8",
   "description": "mintui form",
   "main": "index.js",
   "scripts": {
