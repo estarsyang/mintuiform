@@ -1,0 +1,36 @@
+.mint-form-item {
+  margin-bottom: 22px;
+}
+.mint-form-item__label {
+  vertical-align: middle;
+  font-size: 14px;
+  color: #606266;
+  line-height: 40px;
+  box-sizing: border-box;
+  float: none;
+  display: inline-block;
+  text-align: left;
+}
+.mint-form-item__label ~ .mint-form-item-content .mint-radiolist-title {
+  margin: 0;
+}
+.mint-form-item__label ~ .mint-form-item-content .mint-checklist-title {
+  margin: 0;
+}
+.mint-form-item-content {
+  line-height: 40px;
+  position: relative;
+  font-size: 14px;
+}
+.is-error .mint-input {
+  border-bottom: 1px solid #f56c6c;
+}
+.mint-form-item__error {
+  color: #f56c6c;
+  font-size: 12px;
+  line-height: 1;
+  padding-top: 4px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
