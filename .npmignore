@@ -1,11 +1,19 @@
 # dir
 examples/
 node_modules/
+packages/
+public/
 
 
 # Editor directories and files
+.gitignore
+.babel.config.js
 .DS_Store
 .idea
+package-lock.json
+package.json
+vue.config.js
+yarn.lock
 .vscode
 *.suo
 *.ntvs*
