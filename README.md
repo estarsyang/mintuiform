@@ -9,6 +9,7 @@
 npm i mintuiform
 //  main.js
 import mintuiform from 'mintuiform'
+import 'mintuiform/lib/common.css'
 Vue.use(mintuiform)
 ```
 ```html
