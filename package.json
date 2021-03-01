@@ -1,6 +1,6 @@
 {
   "name": "mintuiform",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/estarsyang/mintuiform.git"
@@ -51,7 +51,7 @@
     "last 2 versions",
     "not dead"
   ],
-  "description": "test vue lib",
+  "description": "mintui form",
   "keyWorlds": [
     "test",
     "vue",
